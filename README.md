@@ -103,9 +103,15 @@ Deletes the temporary extracted folder to conserve disk space.
 
 1.	Create New App in PDQ Connect.
 2.	**Upload** `Adobe2025.zip` to `C:\Temp\PDQ_AdobeInstall` using an Install Step or File Copy Step.
-3.	Add a PowerShell Step with the script above.
+3.	Add a PowerShell Step with the script above. (Make sure to import PS not copy and paste)
 4.	Set Run As to Local System.
 5.	Save and Deploy to the appropriate device collections.
+
+![Prop](https://github.com/user-attachments/assets/940fad30-8834-44c0-97c9-1347aa34742c)
+
+![Step1](https://github.com/user-attachments/assets/2ac499e7-bab5-4c6b-bd65-629c6b0476c6)
+
+![step2](https://github.com/user-attachments/assets/5af037c3-7a3e-44ad-9cad-01dc28a2d2bb)
 
 ### Troubleshooting Tips
 
