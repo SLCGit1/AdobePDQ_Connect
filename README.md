@@ -1,4 +1,7 @@
 # AdobePDQ_Connect
+
+The PDF has screenshots I'm sure theres other ways to do this but this has worked for us the best so far. This can be adapted for other software that has multi files and folders as part its installation. 
+
 Documentation for Adobe Software 2025 Deployment Using PowerShell and PDQ Connect
  
 Overview
