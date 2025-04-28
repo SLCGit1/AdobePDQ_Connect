@@ -19,7 +19,7 @@ This document provides detailed instructions for deploying Adobe Software 2025 s
 - PowerShell 5.1 or newer installed on target devices
 
 ## Deployment Components
-1. Files Needed Ex `Adobe2025.zip`: Must contain at least the Build folder with setup.exe and related installation files. This zip file is download after create an Adobe Package using the admin console. 
+1. Files Needed Ex `Adobe2025.zip`: Must contain at least the Build folder with setup.exe and related installation files. This zip file is download after creating an Adobe Package using the admin console. 
 2. Script Purpose
 
 This script automates the following tasks:
