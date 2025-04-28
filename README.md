@@ -39,7 +39,7 @@ Defines paths for:
 •	Temporary extraction location
 •	Default installer location
  
-Function: Wait-ForFileUnlock
+# Function: wait for file to be ready (unlocked)
 function Wait-ForFileUnlock {
     param (
         [string]$FilePath,
