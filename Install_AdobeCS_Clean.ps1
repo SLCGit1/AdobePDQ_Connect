@@ -36,7 +36,7 @@ Write-Output "Waiting for ZIP file to unlock..."
 Wait-ForFileUnlock -FilePath $ZipPath
 
 # Step 3: Extract ZIP
-Write-Output "Unzipping Photoshop package..."
+Write-Output "Unzipping Adobe2025 package..."
 Expand-Archive -Path $ZipPath -DestinationPath $UnzipPath -Force
 
 # Step 4: Confirm setup.exe exists (handle unexpected paths)
@@ -52,7 +52,7 @@ if (-Not (Test-Path $InstallerPath)) {
 }
 
 # Step 5: Run installer silently
-Write-Output "Running Photoshop installer..."
+Write-Output "Running Adobe2025 installer..."
 Start-Process -FilePath $InstallerPath -ArgumentList "--silent" -Wait
 
 # Step 6: Clean up
