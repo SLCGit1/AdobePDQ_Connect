@@ -38,29 +38,8 @@ Defines paths for:
 •	ZIP file location after copying
 •	Temporary extraction location
 •	Default installer location
- 
-# Function: wait for file to be ready (unlocked)
-function Wait-ForFileUnlock {
-    param (
-        [string]$FilePath,
-        [int]$MaxAttempts = 30,
-        [int]$DelaySeconds = 2
-    )
-    $attempt = 0
-    while ($attempt -lt $MaxAttempts) {
-        try {
-            $stream = [System.IO.File]::Open($FilePath, 'Open', 'Read', 'None')
-            if ($stream) {
-                $stream.Close()
-                return $true
-            }
-        } catch {
-            Start-Sleep -Seconds $DelaySeconds
-            $attempt++
-        }
-    }
-    throw "File is still locked after $($MaxAttempts * $DelaySeconds) seconds: $FilePath"
-}
+
+Please read the PDF for directions
 
 Purpose:
 •	Repeatedly attempts to open the file to verify it is not locked by another process (e.g., antivirus or copy operation).
