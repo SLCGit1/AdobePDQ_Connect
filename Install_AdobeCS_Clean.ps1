@@ -1,4 +1,5 @@
 # You may want to update the Adobe text Write-Output "Unzipping Adobe2025 package..." and Write-Output "Running Adobe2025 installer..." in step 3 and 5 to match the application you're installing. 
+# Created by Jesus Ayala, Sarah Lawrence College
 
 # Config
 $ZipPath = "C:\Temp\PDQ_AdobeInstall\AdobeZipFile.zip"
