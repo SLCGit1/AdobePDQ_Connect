@@ -136,3 +136,6 @@ This automated method simplifies Adobe CC 2025 deployment using PDQ Connect and 
 ---
 
 _End of Documentation_
+
+## Author
+Created by Jesus Ayala from Sarah Lawrence College
